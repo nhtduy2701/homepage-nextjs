@@ -113,7 +113,10 @@ const MobileFooter = () => {
         </div>
       </div>
       <div className="flex justify-center mb-[25px]">
-        <a className="bg-[#1a1a1a] rounded-full mx-[10px] p-[12px] w-[65px] h-[65px] justify-center items-center text-[#e8e6e3] inline-flex">
+        <a
+          href="https://www.facebook.com/FPTSmartHome"
+          className="hover:bg-gray-500 bg-[#1a1a1a] rounded-full mx-[10px] p-[12px] w-[65px] h-[65px] justify-center items-center text-[#e8e6e3] inline-flex"
+        >
           <svg width="15.963" height="31" viewBox="0 0 15.963 31">
             <path
               d="M1691.174,4025h5.73v-14.238h4.677c.237-1.823.475-3.638.721-5.524h-5.437s.016-2.735.047-3.916c.048-1.624,1.007-2.116,2.307-2.163.951-.032,1.894-.008,2.845-.008h.389v-4.93c-.5-.048-1.031-.119-1.562-.151-.975-.039-1.942-.087-2.917-.063a7.149,7.149,0,0,0-4.121,1.268,6.176,6.176,0,0,0-2.473,4.113,15.621,15.621,0,0,0-.174,2.117c-.024,1.109,0,2.211,0,3.321v.412h-4.716v5.508h4.684Z"
@@ -123,7 +126,10 @@ const MobileFooter = () => {
             ></path>
           </svg>
         </a>
-        <a className="bg-[#1a1a1a] rounded-full mx-[10px] p-[12px] w-[65px] h-[65px] justify-center items-center text-[#e8e6e3] inline-flex">
+        <a
+          href="https://www.youtube.com/channel/UCd9b_DsKpxmAB56n7rPFB2Q"
+          className="hover:bg-gray-500 bg-[#1a1a1a] rounded-full mx-[10px] p-[12px] w-[65px] h-[65px] justify-center items-center text-[#e8e6e3] inline-flex"
+        >
           <img src="/images/youtube-icon.png" alt="" />
         </a>
       </div>
@@ -238,11 +244,13 @@ const TabletFooter = () => {
         </div>
       </div>
       <div className="flex justify-center mb-[30px]">
-        <a className="bg-[#1a1a1a] rounded-full mx-[10px] p-[12px] w-[65px] h-[65px] justify-center items-center text-[#e8e6e3] inline-flex">
+        <a
+          href="https://www.facebook.com/FPTSmartHome"
+          className="hover:bg-gray-500 bg-[#1a1a1a] rounded-full mx-[10px] p-[12px] w-[65px] h-[65px] justify-center items-center text-[#e8e6e3] inline-flex"
+        >
           <svg width="15.963" height="31" viewBox="0 0 15.963 31">
             <path
               id="Path_44"
-              data-name="Path 44"
               d="M1691.174,4025h5.73v-14.238h4.677c.237-1.823.475-3.638.721-5.524h-5.437s.016-2.735.047-3.916c.048-1.624,1.007-2.116,2.307-2.163.951-.032,1.894-.008,2.845-.008h.389v-4.93c-.5-.048-1.031-.119-1.562-.151-.975-.039-1.942-.087-2.917-.063a7.149,7.149,0,0,0-4.121,1.268,6.176,6.176,0,0,0-2.473,4.113,15.621,15.621,0,0,0-.174,2.117c-.024,1.109,0,2.211,0,3.321v.412h-4.716v5.508h4.684Z"
               transform="translate(-1686.49 -3994)"
               fill="#fff"
@@ -250,7 +258,10 @@ const TabletFooter = () => {
             ></path>
           </svg>
         </a>
-        <a className="bg-[#1a1a1a] rounded-full mx-[10px] p-[12px] w-[65px] h-[65px] justify-center items-center text-[#e8e6e3] inline-flex">
+        <a
+          href="https://www.youtube.com/channel/UCd9b_DsKpxmAB56n7rPFB2Q"
+          className="hover:bg-gray-500 bg-[#1a1a1a] rounded-full mx-[10px] p-[12px] w-[65px] h-[65px] justify-center items-center text-[#e8e6e3] inline-flex"
+        >
           <img src="/images/youtube-icon.png" alt="" />
         </a>
       </div>
@@ -360,11 +371,12 @@ const DesktopFooter = () => {
         </div>
       </div>
       <div className="flex justify-center mb-[50px]">
-        <a className="bg-[#1a1a1a] rounded-full mx-[10px] p-[12px] w-[65px] h-[65px] justify-center items-center text-[#e8e6e3] inline-flex">
+        <a
+          href="https://www.facebook.com/FPTSmartHome"
+          className="hover:bg-gray-500 bg-[#1a1a1a] rounded-full mx-[10px] p-[12px] w-[65px] h-[65px] justify-center items-center text-[#e8e6e3] inline-flex"
+        >
           <svg width="15.963" height="31" viewBox="0 0 15.963 31">
             <path
-              id="Path_44"
-              data-name="Path 44"
               d="M1691.174,4025h5.73v-14.238h4.677c.237-1.823.475-3.638.721-5.524h-5.437s.016-2.735.047-3.916c.048-1.624,1.007-2.116,2.307-2.163.951-.032,1.894-.008,2.845-.008h.389v-4.93c-.5-.048-1.031-.119-1.562-.151-.975-.039-1.942-.087-2.917-.063a7.149,7.149,0,0,0-4.121,1.268,6.176,6.176,0,0,0-2.473,4.113,15.621,15.621,0,0,0-.174,2.117c-.024,1.109,0,2.211,0,3.321v.412h-4.716v5.508h4.684Z"
               transform="translate(-1686.49 -3994)"
               fill="#fff"
@@ -372,7 +384,10 @@ const DesktopFooter = () => {
             ></path>
           </svg>
         </a>
-        <a className="bg-[#1a1a1a] rounded-full mx-[10px] p-[12px] w-[65px] h-[65px] justify-center items-center text-[#e8e6e3] inline-flex">
+        <a
+          href="https://www.youtube.com/channel/UCd9b_DsKpxmAB56n7rPFB2Q"
+          className="hover:bg-gray-500 bg-[#1a1a1a] rounded-full mx-[10px] p-[12px] w-[65px] h-[65px] justify-center items-center text-[#e8e6e3] inline-flex"
+        >
           <img src="/images/youtube-icon.png" alt="" />
         </a>
       </div>

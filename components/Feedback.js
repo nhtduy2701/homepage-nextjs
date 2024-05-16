@@ -6,25 +6,25 @@ export default function Feedback() {
     {
       imageSrc: "/images/review-image-1.png",
       name: "Hoàng Sang",
-      tittle:
+      title:
         "Có thể tương tác và quản lý hệ thống thiết bị thông minh trong nhà thông qua điện thoại rất tiện lợi. Tối muốn tắt hết mọi thứ chỉ cần nói “đi ngủ” thì tất cả sẽ được xử lý nhanh chóng, không phải tự đi tắt đèn, kéo rèm như trước nữa.",
     },
     {
       imageSrc: "/images/review-image-2.png",
       name: "Văn Hoàng",
-      tittle:
+      title:
         "Thuận tiện. Có lần anh đi công tác xa mà quên tắt đèn, nhà lúc đó lại không có ai. Thông qua điện thoại anh có thể điều khiển tắt đèn từ xa, quản lý cách dễ dàng hơn.",
     },
     {
       imageSrc: "/images/review-image-3.png",
       name: "Thanh Lê",
-      tittle:
+      title:
         "Kiểu dáng thiết kế mẫu mã các thiết bị đẹp, sài tiện lợi. FPT Smart Home có đội ngũ bảo hành rất tốt, có vấn đề sẽ có người đến xem và hỗ trợ trong ngày.",
     },
     {
       imageSrc: "/images/review-image-4.png",
       name: "Minh Chiến",
-      tittle:
+      title:
         "Anh rất an tâm khi hệ thống an ninh báo động chính xác, không nhầm lẫn giữa người và thú cưng, cũng giúp cảnh báo cho anh khi con nhỏ đi vào vùng nguy hiểm. Rất tiện.",
     },
   ];
@@ -43,8 +43,8 @@ export default function Feedback() {
           style={{ transform: `translateX(-${(activeGrid - 1) * 100}%)` }}
         >
           {data.map((item, index) => (
-            <div key={index} className="flex-0 flex-shrink-0 w-full sm:hidden">
-              <div className="flex flex-col items-center px-[15px]">
+            <div key={index} className="flex-0 flex-shrink-0 w-full">
+              <div className="flex flex-col items-center px-[15px] h-full">
                 <div className="mx-[10px] mt-[10px] mb-[25px]">
                   <img
                     src={item.imageSrc}
@@ -57,7 +57,7 @@ export default function Feedback() {
                   {item.name}
                 </p>
                 <p className="text-center text-[16px] mb-[20px] text-[#1a1a1a]">
-                  {item.tittle}
+                  {item.title}
                 </p>
                 <svg
                   width="40"
@@ -120,7 +120,7 @@ export default function Feedback() {
         >
           {Array.from({ length: 3 }).map((_, gridIndex) => (
             <div key={gridIndex} className="flex-0 flex-shrink-0 w-full">
-              <div className="flex gap-[25px]">
+              <div className="flex gap-[25px] h-full">
                 {data.slice(gridIndex, gridIndex + 3).map((item, index) => (
                   <div key={index} className="w-1/3 flex flex-col items-center">
                     <div className="mx-[10px] mt-[10px] mb-[25px]">
@@ -135,7 +135,7 @@ export default function Feedback() {
                       {item.name}
                     </p>
                     <p className="text-center text-[16px] mb-[20px] text-[#1a1a1a] leading-5">
-                      {item.tittle}
+                      {item.title}
                     </p>
                     <svg
                       width="55"
@@ -198,7 +198,7 @@ export default function Feedback() {
               {item.name}
             </p>
             <p className="text-center text-balance text-[17px] mb-[20px] text-[#1a1a1a]">
-              {item.tittle}
+              {item.title}
             </p>
             <svg
               width="55"

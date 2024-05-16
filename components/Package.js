@@ -100,7 +100,7 @@ export default function Package() {
                   Gói giải pháp
                 </p>
                 <h3 className="text-[24px] lg:text-[35px] font-bold text-center leading-none">
-                  Căn hộ 2 phòng ngủ
+                  Căn hộ 3 phòng ngủ
                 </h3>
                 <hr className="h-[1px] border-[#1a1a1a] my-[25px] lg:my-[30px]" />
                 <div className="grid gap-2 md:gap-x-[25px] md:gap-y-[15px] grid-cols-2 items-center justify-center lg:pl-[40px] ">
@@ -127,11 +127,25 @@ export default function Package() {
                     <span className="text-[13px]">Giải Pháp An Ninh</span>
                   </div>
                   <div className="flex items-center">
-                    <div className="w-4 h-4 border border-black rounded flex items-center justify-center mr-[5px]"></div>
+                    <div className="w-4 h-4 border border-black rounded flex items-center justify-center mr-[5px]">
+                      <svg
+                        className="w-4 h-4 fill-orange-600 absolute"
+                        viewBox="1 2 18 18"
+                      >
+                        <path d="M18.95 4.35a.6.6 0 0 0-.85 0l-11 11-4.35-4.35a.6.6 0 0 0-.85.85l5 5a.6.6 0 0 0 .85 0L18.95 5.2a.6.6 0 0 0 0-.85z" />
+                      </svg>
+                    </div>
                     <span className="text-[13px]">Giải Pháp Chiếu Sáng</span>
                   </div>
                   <div className="flex items-center">
-                    <div className="w-4 h-4 border border-black rounded flex items-center justify-center mr-[5px]"></div>
+                    <div className="w-4 h-4 border border-black rounded flex items-center justify-center mr-[5px]">
+                      <svg
+                        className="w-4 h-4 fill-orange-600 absolute"
+                        viewBox="1 2 18 18"
+                      >
+                        <path d="M18.95 4.35a.6.6 0 0 0-.85 0l-11 11-4.35-4.35a.6.6 0 0 0-.85.85l5 5a.6.6 0 0 0 .85 0L18.95 5.2a.6.6 0 0 0 0-.85z" />
+                      </svg>
+                    </div>
                     <span className="text-[13px]">Giải Pháp Truyền hình</span>
                   </div>
                 </div>
@@ -142,7 +156,7 @@ export default function Package() {
                       Giá gói sản phẩm từ
                     </p>
                     <p className="text-[24px] lg:text-[28px] text-center font-bold text-[#333] leading-none mb-[6px]">
-                      19.000.000 VNĐ
+                      26.590.000 VNĐ
                     </p>
                     <p className="text-[12px] text-center text-[#333] leading-none">
                       (Chưa có thuế VAT và phí thi công)

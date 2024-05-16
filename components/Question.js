@@ -67,8 +67,8 @@ export default function Question() {
               key={index}
               className={`${
                 index === data.length - 1
-                  ? "mb-[25px] pb-[15px]"
-                  : "mb-[25px] pb-[15px] border-b-[1px] border-black"
+                  ? "mb-[20px] pb-[10px] sm:mb-[25px] sm:pb-[15px]"
+                  : "mb-[20px] pb-[10px] sm:mb-[25px] sm:pb-[15px] border-b-[1px] border-black"
               }`}
             >
               <div
@@ -84,7 +84,7 @@ export default function Question() {
                     height="9.889"
                     viewBox="0 0 17.096 9.889"
                     className={`mx-auto w-4 h-4 transition-transform ${
-                      expandedIndex === index ? "transform rotate-180" : ""
+                      expandedIndex === index ? "transform -rotate-180" : ""
                     }`}
                   >
                     <path

@@ -5,7 +5,6 @@ import "@/public/styles/tailwind.css";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* <title></title> */}
       <body>
         <Header />
         <main>{children}</main>

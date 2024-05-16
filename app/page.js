@@ -7,6 +7,7 @@ import Knowledge from "@/components/Knowledge";
 import Package from "@/components/Package";
 import Product from "@/components/Product";
 import Question from "@/components/Question";
+import Video from "@/components/Video";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Package />
       <AdsBanner />
       <Knowledge />
+      <Video />
       <Feedback />
       <Question />
     </main>
