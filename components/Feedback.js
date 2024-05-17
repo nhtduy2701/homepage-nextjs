@@ -29,7 +29,7 @@ export default function Feedback() {
     },
   ];
 
-  const Grid1 = () => {
+  const MobileView = () => {
     const [activeGrid, setActiveGrid] = useState(1);
 
     const handleGridChange = (gridIndex) => {
@@ -105,7 +105,7 @@ export default function Feedback() {
     );
   };
 
-  const Grid3 = () => {
+  const TabletView = () => {
     const [activeGrid, setActiveGrid] = useState(1);
 
     const handleGridChange = (gridIndex) => {
@@ -185,7 +185,7 @@ export default function Feedback() {
     );
   };
 
-  const Grid4 = () => {
+  const DesktopView = () => {
     return (
       <div className="mx-auto lg:grid lg:grid-cols-4 gap-10 hidden">
         {data.map((item, index) => (
@@ -235,9 +235,9 @@ export default function Feedback() {
         <h2 className="text-[#3c4043] text-[20px] sm:text-[24px] md:text-[35px] lg:text-[40px] xxl:text-[45px] font-bold text-center mb-[30px] sm:mb-[60px]">
           Cảm nhận khách hàng
         </h2>
-        <Grid1 />
-        <Grid3 />
-        <Grid4 />
+        <MobileView />
+        <TabletView />
+        <DesktopView />
       </div>
     </div>
   );

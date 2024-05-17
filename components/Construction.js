@@ -32,7 +32,7 @@ export default function Construction() {
     },
   ];
 
-  const Grid1 = () => {
+  const MobileView = () => {
     const [activeGrid, setActiveGrid] = useState(1);
 
     const handleGridChange = (gridIndex) => {
@@ -176,7 +176,7 @@ export default function Construction() {
     );
   };
 
-  const Grid2 = () => {
+  const TabletView = () => {
     const [activeGrid, setActiveGrid] = useState(1);
 
     const handleGridChange = (gridIndex) => {
@@ -334,7 +334,7 @@ export default function Construction() {
     );
   };
 
-  const Grid3 = () => {
+  const DesktopView = () => {
     return (
       <div className="hidden lg:grid lg:grid-cols-3 gap-[25px] mt-[65px]">
         {data.map((item, index) => (
@@ -462,9 +462,9 @@ export default function Construction() {
       <button className="flex justify-center mx-auto items-center mt-[40px] w-[126px] md:w-[140px] lg:w-[160px] h-[40px] rounded-[5px] border-solid border-[1.6px] border-[#000] text-[#1a1a1a] hover:bg-[#3c4043] hover:text-[#fff]">
         <span className="text-[15px] font-bold text-center">Xem ngay</span>
       </button>
-      <Grid1 />
-      <Grid2 />
-      <Grid3 />
+      <MobileView />
+      <TabletView />
+      <DesktopView />
     </div>
   );
 }

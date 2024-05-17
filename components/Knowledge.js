@@ -125,7 +125,7 @@ export default function Knowledge() {
     },
   ];
 
-  const Grid1 = () => {
+  const MobileView = () => {
     const [activeGrid, setActiveGrid] = useState(1);
 
     const handleGridChange = (gridIndex) => {
@@ -183,7 +183,7 @@ export default function Knowledge() {
     );
   };
 
-  const Grid2 = () => {
+  const TabletView = () => {
     const [activeGrid, setActiveGrid] = useState(1);
 
     const handleGridChange = (gridIndex) => {
@@ -294,7 +294,7 @@ export default function Knowledge() {
     );
   };
 
-  const Grid4 = () => {
+  const DesktopView = () => {
     const [activeGrid, setActiveGrid] = useState(1);
 
     const handleGridChange = (gridIndex) => {
@@ -416,9 +416,9 @@ export default function Knowledge() {
       <button className="flex justify-center mx-auto items-center mt-[20px] mb-[35px] sm:mt-[25px] sm:mb-[50px] w-[126px] sm:w-[140px] lg:w-[160px] h-[40px] rounded-[5px] border-solid border-[1.6px] border-[#000] text-[#1a1a1a] hover:bg-[#3c4043] hover:text-[#fff]">
         <span className="text-[15px] font-bold text-center">Xem thêm</span>
       </button>
-      <Grid1 />
-      <Grid2 />
-      <Grid4 />
+      <MobileView />
+      <TabletView />
+      <DesktopView />
     </div>
   );
 }
