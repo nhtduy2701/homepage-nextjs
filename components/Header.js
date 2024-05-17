@@ -24,84 +24,6 @@ export default function Header() {
                 >
                   Thiết bị
                 </a>
-                {/* <div className="absolute -left-0 hidden group-hover:block bg-[#f2f2f2] w-full items-center justify-center mt-4">
-                <div className="flex">
-                  <div className="w-1/4 border-r border-gray-300 my-[20px]">
-                    <ul className="flex-row space-y-[10px] my-[20px]">
-                      <li>
-                        <a
-                          href="#"
-                          className="text-[15px] pl-[50px] py-[10px] block hover:bg-gray-200"
-                        >
-                          Thiết bị theo giải pháp
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="text-[15px] pl-[50px] py-[10px] block hover:bg-gray-200"
-                        >
-                          Thiết bị trung tâm
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="text-[15px] pl-[50px] py-[10px] block hover:bg-gray-200"
-                        >
-                          Thiết bị độc lập
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="text-[15px] pl-[50px] py-[10px] block hover:bg-gray-200"
-                        >
-                          Thiết bị kết hợp
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="w-1/4 border-r border-gray-300 my-[20px]">
-                    <ul className="flex-row my-[20px]">
-                      <li>
-                        <a
-                          href="#"
-                          className="text-[15px] pl-[50px] py-[10px] block hover:bg-gray-200"
-                        >
-                          Thiết bị theo giải pháp
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="text-[15px] pl-[50px] py-[10px] block hover:bg-gray-200"
-                        >
-                          Thiết bị trung tâm
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="text-[15px] pl-[50px] py-[10px] block hover:bg-gray-200"
-                        >
-                          Thiết bị độc lập
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="text-[15px] pl-[50px] py-[10px] block hover:bg-gray-200"
-                        >
-                          Thiết bị kết hợp
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="w-1/4"></div>
-                  <div className="w-1/4"></div>
-                </div>
-              </div> */}
               </div>
               <div className="relative inline-block group">
                 <a
@@ -110,43 +32,6 @@ export default function Header() {
                 >
                   Giải pháp
                 </a>
-                {/* <ul className="absolute -left-4 hidden group-hover:block bg-[#f2f2f2] rounded-md w-[190px] p-[10px] mt-4">
-                <li>
-                  <a
-                    href="#"
-                    className="text-[15px] ml-[10px] py-[5px] block hover:text-gray-400"
-                  >
-                    Giải pháp điều khiển
-                  </a>
-                  <hr className="border-gray-400" />
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[15px] ml-[10px] py-[5px] block hover:text-gray-400"
-                  >
-                    Giải pháp chiếu sáng
-                  </a>
-                  <hr className="border-gray-400" />
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[15px] ml-[10px] py-[5px] block hover:text-gray-400"
-                  >
-                    Giải pháp an ninh
-                  </a>
-                  <hr className="border-gray-400" />
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[15px] ml-[10px] py-[5px] block hover:text-gray-400"
-                  >
-                    Giải pháp truyền hình
-                  </a>
-                </li>
-              </ul> */}
               </div>
               <li>
                 <a
@@ -163,62 +48,6 @@ export default function Header() {
                 >
                   Tin tức
                 </a>
-
-                {/* <ul className="absolute -left-4 hidden group-hover:block bg-[#f2f2f2] rounded-md w-[160px] p-[10px] mt-4">
-                <li>
-                  <a
-                    href="#"
-                    className="text-[15px] ml-[10px] py-[5px] block hover:text-gray-400"
-                  >
-                    Khuyến mãi
-                  </a>
-                  <hr className="border-gray-400" />
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[15px] ml-[10px] py-[5px] block hover:text-gray-400"
-                  >
-                    Hướng dẫn
-                  </a>
-                  <hr className="border-gray-400" />
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[15px] ml-[10px] py-[5px] block hover:text-gray-400"
-                  >
-                    Kiến thức
-                  </a>
-                  <hr className="border-gray-400" />
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[15px] ml-[10px] py-[5px] block hover:text-gray-400"
-                  >
-                    Thư viện
-                  </a>
-                  <hr className="border-gray-400" />
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[15px] ml-[10px] py-[5px] block hover:text-gray-400"
-                  >
-                    Công trình
-                  </a>
-                  <hr className="border-gray-400" />
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[15px] ml-[10px] py-[5px] block hover:text-gray-400"
-                  >
-                    Catalog
-                  </a>
-                </li>
-              </ul> */}
               </div>
               <div className="relative inline-block group">
                 <a
@@ -227,35 +56,6 @@ export default function Header() {
                 >
                   Hỗ trợ
                 </a>
-
-                {/* <ul className="absolute -left-4 hidden group-hover:block bg-[#f2f2f2] rounded-md w-[160px] p-[10px] mt-4">
-                <li>
-                  <a
-                    href="#"
-                    className="text-[15px] ml-[10px] py-[5px] block hover:text-gray-400"
-                  >
-                    Đối tác
-                  </a>
-                  <hr className="border-gray-400" />
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[15px] ml-[10px] py-[5px] block hover:text-gray-400"
-                  >
-                    Liên hệ
-                  </a>
-                  <hr className="border-gray-400" />
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[15px] ml-[10px] py-[5px] block hover:text-gray-400"
-                  >
-                    BrandShop
-                  </a>
-                </li>
-              </ul> */}
               </div>
               <li>
                 <a className="text-[15px] hover:bg-orange-600 hover:text-white px-[15px] py-[20px]">

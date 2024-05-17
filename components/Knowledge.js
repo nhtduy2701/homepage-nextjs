@@ -141,11 +141,11 @@ export default function Knowledge() {
           {data.map((item, index) => (
             <div key={index} className="flex-0 flex-shrink-0 w-full">
               <div className="w-full flex flex-col px-[20px] pt-[20px] pb-[30px] bg-[#f8f9fa] rounded-[24px]">
-                <div className="h-[200px] min-[350px]:h-[250px] min-[400px]:h-[290px] flex items-center overflow-hidden rounded-[13px]">
+                <div className="relative aspect-w-7 aspect-h-6 flex items-center overflow-hidden rounded-[13px]">
                   <img
                     src={item.imageSrc}
-                    alt=""
-                    className="w-full h-full object-cover"
+                    alt={item.name}
+                    className="absolute w-full h-full object-cover"
                   />
                 </div>
 
@@ -209,11 +209,11 @@ export default function Knowledge() {
                       key={index}
                       className="w-1/2 flex flex-col px-[20px] pt-[20px] pb-[30px] bg-[#f8f9fa] rounded-[24px]"
                     >
-                      <div className="sm:h-[190px] min-[700px]:h-[210px] min-[800px]:h-[260px] min-[900px]:h-[300px] min-[1000px]:h-[340px] flex justify-center items-center overflow-hidden rounded-[13px]">
+                      <div className="relative aspect-w-7 aspect-h-6 flex justify-center items-center overflow-hidden rounded-[13px]">
                         <img
                           src={item.imageSrc}
-                          alt=""
-                          className="w-full h-full object-cover"
+                          alt={item.name}
+                          className="absolute w-full h-full object-cover"
                         />
                       </div>
                       <a href="" className="mt-[20px] block text-center">
@@ -246,6 +246,50 @@ export default function Knowledge() {
             </svg>
           ))}
         </div>
+        <button
+          className="absolute top-1/2 -left-3"
+          onClick={() => handleGridChange(activeGrid > 1 ? activeGrid - 1 : 10)}
+        >
+          <svg width="40" viewBox="0 0 24 24" className="transform rotate-90">
+            <rect width="24" height="24" fill="none"></rect>
+            <g>
+              <rect width="24" height="24" fill="none"></rect>
+              <g transform="translate(5 8.5)">
+                <path
+                  d="M14,0,7,7,0,0"
+                  fill="none"
+                  stroke="#3C4043"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
+                  strokeDasharray="0 0"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </button>
+        <button
+          className="absolute top-1/2 -right-3"
+          onClick={() => handleGridChange(activeGrid < 10 ? activeGrid + 1 : 1)}
+        >
+          <svg width="40" viewBox="0 0 24 24" className="transform -rotate-90">
+            <rect width="24" height="24" fill="none"></rect>
+            <g>
+              <rect width="24" height="24" fill="none"></rect>
+              <g transform="translate(5 8.5)">
+                <path
+                  d="M14,0,7,7,0,0"
+                  fill="none"
+                  stroke="#3C4043"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
+                  strokeDasharray="0 0"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </button>
       </div>
     );
   };
@@ -268,7 +312,7 @@ export default function Knowledge() {
             (_, pageIndex) => (
               <div
                 key={pageIndex}
-                className="flex-0 flex-shrink-0 w-full px-[40px]"
+                className="flex-0 flex-shrink-0 w-full px-[20px] 2xl:px-[40px]"
               >
                 <div className="flex gap-[20px]">
                   {data
@@ -278,15 +322,15 @@ export default function Knowledge() {
                         key={index}
                         className="w-1/4 flex flex-col px-[20px] pt-[20px] pb-[30px] bg-[#f8f9fa] rounded-[24px]"
                       >
-                        <div className="w-full lg:h-[150px] min-[1100px]:h-[170px] min-[1200px]:h-[190px] min-[1300px]:h-[210px] min-[1400px]:h-[230px] flex items-center overflow-hidden rounded-[13px]">
+                        <div className="relative aspect-w-7 aspect-h-6 flex items-center overflow-hidden rounded-[13px]">
                           <img
                             src={item.imageSrc}
-                            alt=""
-                            className="w-full h-full object-cover"
+                            alt={item.name}
+                            className="absolute w-full h-full object-cover"
                           />
                         </div>
                         <a href="" className="mt-[20px] block text-center">
-                          <p className="font-bold text-[15px] text-[#1a1a1a] mx-auto">
+                          <p className="font-bold lg:text-[14px] xl:text-[15px] text-[#1a1a1a] mx-auto">
                             {item.name}
                           </p>
                         </a>
@@ -316,6 +360,50 @@ export default function Knowledge() {
             </svg>
           ))}
         </div>
+        <button
+          className="absolute top-1/2 -left-3"
+          onClick={() => handleGridChange(activeGrid > 1 ? activeGrid - 1 : 5)}
+        >
+          <svg width="40" viewBox="0 0 24 24" className="transform rotate-90">
+            <rect width="24" height="24" fill="none"></rect>
+            <g>
+              <rect width="24" height="24" fill="none"></rect>
+              <g transform="translate(5 8.5)">
+                <path
+                  d="M14,0,7,7,0,0"
+                  fill="none"
+                  stroke="#3C4043"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
+                  strokeDasharray="0 0"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </button>
+        <button
+          className="absolute top-1/2 -right-3"
+          onClick={() => handleGridChange(activeGrid < 5 ? activeGrid + 1 : 1)}
+        >
+          <svg width="40" viewBox="0 0 24 24" className="transform -rotate-90">
+            <rect width="24" height="24" fill="none"></rect>
+            <g>
+              <rect width="24" height="24" fill="none"></rect>
+              <g transform="translate(5 8.5)">
+                <path
+                  d="M14,0,7,7,0,0"
+                  fill="none"
+                  stroke="#3C4043"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="1.5"
+                  strokeDasharray="0 0"
+                ></path>
+              </g>
+            </g>
+          </svg>
+        </button>
       </div>
     );
   };

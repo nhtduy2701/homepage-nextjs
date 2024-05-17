@@ -4,7 +4,7 @@ import Collection from "@/components/Collection";
 import Construction from "@/components/Construction";
 import Feedback from "@/components/Feedback";
 import Knowledge from "@/components/Knowledge";
-import Package from "@/components/Package";
+import ApartmentType from "@/components/ApartmentType";
 import Product from "@/components/Product";
 import Question from "@/components/Question";
 import Video from "@/components/Video";
@@ -16,7 +16,7 @@ export default function Home() {
       <Product />
       <Collection />
       <Construction />
-      <Package />
+      <ApartmentType />
       <AdsBanner />
       <Knowledge />
       <Video />

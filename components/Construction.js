@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+
 export default function Construction() {
   const data = [
     {
@@ -47,11 +48,11 @@ export default function Construction() {
           {data.map((item, index) => (
             <div key={index} className="flex-0 flex-shrink-0 w-full mt-[35px]">
               <div className="w-full flex-row pt-[20px] pb-[25px] px-[20px] bg-[#f8f9fa]">
-                <div className="min-[300px]:h-[200px] min-[330px]:h-[250px] min-[400px]:h-[300px] min-[500px]:h-[350px] justify-center items-center overflow-hidden rounded-[13px]">
+                <div className="relative aspect-w-8 aspect-h-7 overflow-hidden rounded-[13px]">
                   <img
                     src={item.imageSrc}
                     alt=""
-                    className="w-full h-full object-cover"
+                    className="absolute w-full h-full object-cover"
                   />
                 </div>
 
@@ -196,11 +197,11 @@ export default function Construction() {
                     key={subIndex}
                     className="w-1/2 flex-row pt-[20px] pb-[25px] px-[20px] bg-[#f8f9fa] rounded-[26px]"
                   >
-                    <div className="min-[600px]:h-[210px] min-[700px]:h-[240px] min-[800px]:h-[280px] min-[900px]:h-[330px] min-[983px]:w-[414px] min-[983px]:h-[367px] flex justify-center items-center overflow-hidden rounded-[13px]">
+                    <div className="relative aspect-w-8 aspect-h-7 overflow-hidden rounded-[13px]">
                       <img
                         src={item.imageSrc}
                         alt=""
-                        className="w-full h-full object-cover"
+                        className="absolute w-full h-full object-cover"
                       />
                     </div>
 
@@ -341,11 +342,11 @@ export default function Construction() {
             key={index}
             className="flex-row pt-[20px] pb-[25px] px-[20px] xxxxl:pt-[25px] xxxxl:pb-[30px] xxxxl:px-[25px] justify-center items-center bg-[#f8f9fa] rounded-[26px]"
           >
-            <div className="w-full lg:h-[55%] xxxxl:h-[60%] flex justify-center items-center overflow-hidden rounded-[13px]">
+            <div className="relative aspect-w-9 aspect-h-8 overflow-hidden rounded-[13px]">
               <img
                 src={item.imageSrc}
                 alt=""
-                className="w-full h-full object-cover"
+                className="absolute w-full h-full object-cover"
               />
             </div>
 
@@ -447,7 +448,7 @@ export default function Construction() {
   };
 
   return (
-    <div className="flex-col items-center justify-center px-[20px] sm:px-[25px] xl:max-w-[1150px] 2xl:max-w-[1300px] mt-[100px] lg:mt-[314px] lg:mx-auto">
+    <div className="flex-col items-center justify-center px-[20px] sm:px-[25px] xl:max-w-[1150px] 3xl:max-w-[1300px] mt-[100px] lg:mt-[314px] lg:mx-auto">
       <h2 className="text-[#3c4043] text-[20px] sm:text-[24px] md:text-[35px] lg:text-[40px] xxl:text-[45px] font-bold text-center mb-[20px] sm:mb-[30px]">
         Những công trình tiêu biểu
       </h2>

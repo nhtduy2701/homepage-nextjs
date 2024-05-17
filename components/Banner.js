@@ -44,10 +44,10 @@ export default function Banner() {
             alt=""
           />
         </div>
-        <div className="relative flex-shrink-0 w-full min-[1025px]:h-1/4">
+        <div className="relative flex-shrink-0 w-full lg:aspect-w-2 lg:aspect-h-1">
           <img
             src="/images/banner-3.jpg"
-            className="max-lg:absolute max-lg:inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover"
             alt=""
           />
         </div>
@@ -62,8 +62,8 @@ export default function Banner() {
           {activeGrid === 5 && (
             <iframe
               className="absolute inset-0 w-full h-full object-cover"
-              src="https://www.youtube.com/embed/bYeuXxjyask?rel=0&controls=1&autoplay=1&mute=1&loop=1&vq=hd720&playsinline=1"
-              title="FPT Smart Home - Hạnh Phúc Thật Giản Đơn | TVC 30s"
+              src="https://www.youtube.com/embed/bYeuXxjyask?rel=0&controls=0&autoplay=1&mute=1&loop=1&modestbranding=1&vq=hd720&playsinline=1"
+              title="FPT Smart Home - Hạnh Phúc Thật Giản Đơn"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
